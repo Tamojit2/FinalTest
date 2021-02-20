@@ -1,0 +1,38 @@
+    database design
+    
+    
+    Entity:  
+    
+    User		Category				Products					Attachment
+    
+    id			id					id						id    									user -fk					user - fk
+    email		user - fk(category)			category.id - fk				product.id -fk
+    password		name - string				name - string					image - string
+    roles		description - text			description - text				created
+    created		status -boolean			avaiability - boolean 				updated
+    updated		created - timedate			color - string
+    			updated - timedate			status -enum (new, review, published)
+    								price - string
+    								rating
+    								created
+    								updated
+    								
+    			
+    			jbhmbjhmjnj, knlfshifnz 
+    			
+    			srjskteuhkusw \
+    			hudfxkn
+    			
+    			
+    			
+    			
+    			
+    			category
+    			
+    			mobile - redmi, apple
+    			laptop
+    			
+    			
+    			
+    			
+    			import/export  row->   name desc color price
